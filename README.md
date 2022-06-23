@@ -32,9 +32,9 @@ Changing the parameters ```transf_idx``` and ```flag_direct``` of the functions 
 - Dir, Lin: use ```ADAPTIVE_Inv_or_Dir.m``` +```transf_idx=7``` and ```flag_direct=1```
 
 ## Results of the Paper
-![tables](https://github.com/AndreaMontibeller/AdaptivePRNUCameraAttribution/blob/main/tables.png?raw=true)
+![tables](https://github.com/AndreaMontibeller/AdaptivePRNUCameraAttribution/blob/main/images/tables.png?raw=true)
 
-![ROC](https://github.com/AndreaMontibeller/AdaptivePRNUCameraAttribution/blob/main/ROC_all_new-1.png?raw=true)
+![ROC](https://github.com/AndreaMontibeller/AdaptivePRNUCameraAttribution/blob/main/images/ROC_all_new-1.png?raw=true)
 
 ## If you use this material please cite:
 
