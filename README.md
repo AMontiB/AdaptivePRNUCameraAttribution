@@ -7,6 +7,7 @@ This is the official code implementation of the paper "An Adaptive Method for Ca
 - Install MATLAB Image Processing Toolbox
 - Download the [Camera-fingerprint](https://dde.binghamton.edu/download/camera_fingerprint/)
  package and run the function compile.m in folder CameraFingerprint/Filter \
+ - 5G of RAM
  ## Setup:
  Move all the functions of [Camera-fingerprint](https://dde.binghamton.edu/download/camera_fingerprint/) in ```functions/``` :
  - ```mv CameraFingerprint/Filter/* functions/``` 
