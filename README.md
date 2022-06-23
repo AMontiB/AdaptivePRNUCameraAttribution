@@ -32,7 +32,10 @@ Changing the parameters ```transf_idx``` and ```flag_direct``` of the functions 
 - Inv, Lin: use ```ADAPTIVE_Inv_or_Dir.m``` +```transf_idx=6``` and ```flag_direct=0```
 - Dir, Lin: use ```ADAPTIVE_Inv_or_Dir.m``` +```transf_idx=7``` and ```flag_direct=1```
 
-## Results of the Paper
+## Results of the Paper and its Tech Repo
+
+Check [An Adaptive Method for Camera Attribution under Complex Radial Distortion Corrections]() and [Technical Report Additional Material for “An Adaptive Method for Camera Attribution under Complex Radial Distortion Corrections”]()
+
 ![tables](https://github.com/AndreaMontibeller/AdaptivePRNUCameraAttribution/blob/main/images/tables.png?raw=true)
 
 ![ROC](https://github.com/AndreaMontibeller/AdaptivePRNUCameraAttribution/blob/main/images/ROC_all_new-1.png?raw=true)
