@@ -8,6 +8,7 @@ This is the official code implementation of the paper "An Adaptive Method for Ca
 - Download the [Camera-fingerprint](https://dde.binghamton.edu/download/camera_fingerprint/)
  package and run the function compile.m in folder CameraFingerprint/Filter
  - then run ```mv CameraFingerprint/Filter/* functions/```
+ - download the Camera Fingerprints from [here](https://drive.google.com/file/d/1wpRwT7mthgPChJh9o4rkIwgbswVC5VOt/view?usp=sharing), unzip "CAMERA_FINGERPRINTS.zip" and move them into ```PRNU_FILES/```
 
 ## Note
 - a pre-compiled version of [Camera-fingerprint](https://dde.binghamton.edu/download/camera_fingerprint/) is already present in "functions/". All rights belongs to the original authors.
