@@ -6,12 +6,18 @@ This is the official code implementation of the paper "An Adaptive Method for Ca
 
 - Install MATLAB Image Processing Toolbox
 - Download the [Camera-fingerprint](https://dde.binghamton.edu/download/camera_fingerprint/)
- package and run the function compile.m in folder CameraFingerprint/Filter
- - then run ```mv CameraFingerprint/Filter/* functions/```
- - download the Camera Fingerprints from [here](https://drive.google.com/file/d/1wpRwT7mthgPChJh9o4rkIwgbswVC5VOt/view?usp=sharing), unzip "CAMERA_FINGERPRINTS.zip" and move them into ```PRNU_FILES/```
+ package and run the function compile.m in folder CameraFingerprint/Filter \
+ ## Setup:
+ Move all the functions of [Camera-fingerprint](https://dde.binghamton.edu/download/camera_fingerprint/) in ```functions/``` :
+ - ```mv CameraFingerprint/Filter/* functions/``` 
+ - ```mv CameraFingerprint/Functions/* functions/```
+ - ```mv CameraFingerprint/*.m functions/``` \
+ 
+ 
+ Download the Camera Fingerprints we used in our paper from [here](https://drive.google.com/file/d/1wpRwT7mthgPChJh9o4rkIwgbswVC5VOt/view?usp=sharing), unzip "CAMERA_FINGERPRINTS.zip" and move them into ```PRNU_FILES/```
 
 ## Note
-- a pre-compiled version of [Camera-fingerprint](https://dde.binghamton.edu/download/camera_fingerprint/) is already present in "functions/". All rights belongs to the original authors.
+<!-- - a pre-compiled version of [Camera-fingerprint](https://dde.binghamton.edu/download/camera_fingerprint/) is already present in "functions/". All rights belongs to the original authors. -->
 - a set of test images are included in ```test-images/``` and the respective Camera Fingerprint can be found in ```PRNU_FILES/```
 - a subset of the images we used to test our code on out-camera correction can be downloaded [here](https://drive.google.com/drive/folders/1dvNodEo5LI-gWeLvnh47-bSMGnq8wXyu?usp=sharing). We couldn't include all the images for a matter of privacy.
 
