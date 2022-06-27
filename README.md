@@ -9,13 +9,19 @@ This is the official code implementation of the paper "An Adaptive Method for Ca
  package and run the function compile.m in folder CameraFingerprint/Filter \
  - 5G of RAM
  ## Setup:
+ - Download the Camera Fingerprints we used in our paper from [here](https://drive.google.com/file/d/1wpRwT7mthgPChJh9o4rkIwgbswVC5VOt/view?usp=sharing), unzip "CAMERA_FINGERPRINTS.zip" and move them into ```PRNU_FILES/```
+
+
  Move all the functions of [Camera-fingerprint](https://dde.binghamton.edu/download/camera_fingerprint/) in ```functions/``` :
  - ```mv CameraFingerprint/Filter/* functions/``` 
  - ```mv CameraFingerprint/Functions/* functions/```
  - ```mv CameraFingerprint/*.m functions/``` \
+ - enter in ```functions/``` and run in MATLAB ```compile.m```
+ ### Important for Linux Users
+ - if you are on Linux you may face problems due to unsupported C compilers in MATLAB. Send a mail to [andrea.montibeller@unitn.it](andrea.montibeller@unitn.it) if you need a pre-compiled version of these C / C++ files or contact the authors of [Camera-fingerprint](https://dde.binghamton.edu/download/camera_fingerprint/).
  
  
- Download the Camera Fingerprints we used in our paper from [here](https://drive.google.com/file/d/1wpRwT7mthgPChJh9o4rkIwgbswVC5VOt/view?usp=sharing), unzip "CAMERA_FINGERPRINTS.zip" and move them into ```PRNU_FILES/```
+
 
 ## Note
 <!-- - a pre-compiled version of [Camera-fingerprint](https://dde.binghamton.edu/download/camera_fingerprint/) is already present in "functions/". All rights belongs to the original authors. -->
