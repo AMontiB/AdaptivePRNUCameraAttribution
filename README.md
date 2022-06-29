@@ -49,9 +49,9 @@ Changing the parameters ```transf_idx``` and ```flag_direct``` of the functions 
 
 Check [An Adaptive Method for Camera Attribution under Complex Radial Distortion Corrections]() and [Technical Report Additional Material for “An Adaptive Method for Camera Attribution under Complex Radial Distortion Corrections”]()
 
-![tables](https://github.com/AndreaMontibeller/AdaptivePRNUCameraAttribution/blob/main/images/tables.png?raw=true)
+![tables](https://github.com/AMontiB/AdaptivePRNUCameraAttribution/blob/main/images/tables.png?raw=true)
 
-![ROC](https://github.com/AndreaMontibeller/AdaptivePRNUCameraAttribution/blob/main/images/ROC_all_new-1.png?raw=true)
+![ROC](https://github.com/AMontiB/AdaptivePRNUCameraAttribution/blob/main/images/ROC_all_new-1.png?raw=true)
 
 ## If you use this material please cite:
 
