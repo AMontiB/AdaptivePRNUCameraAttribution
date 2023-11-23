@@ -58,9 +58,8 @@ Check [An Adaptive Method for Camera Attribution under Complex Radial Distortion
 
 @ARTICLE{10265255, \
   author={Montibeller, Andrea and Pérez-González, Fernando}, \
-  journal={IEEE Transactions on Information Forensics and Security}, \ 
-  
-  title={An Adaptive Method for Camera Attribution Under Complex Radial Distortion Corrections}, \ 
+  journal={IEEE Transactions on Information Forensics and Security},\
+  title={An Adaptive Method for Camera Attribution Under Complex Radial Distortion Corrections},\
   year={2024}, \
   volume={19}, \
   number={}, \
