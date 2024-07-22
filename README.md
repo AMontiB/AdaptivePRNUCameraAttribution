@@ -1,6 +1,6 @@
 # An Adaptive Method for Camera Attribution under Complex Radial Distortion Corrections
 
-This is the official code implementation of the paper ["An Adaptive Method for Camera Attribution under Complex Radial Distortion Corrections"]()
+This is the official code implementation of the paper ["An Adaptive Method for Camera Attribution under Complex Radial Distortion Corrections"](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10265255)
 
 ## Requirements
 
