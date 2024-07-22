@@ -1,7 +1,6 @@
 # An Adaptive Method for Camera Attribution under Complex Radial Distortion Corrections
 
-This is the official code implementation of the paper ["An Adaptive Method for Camera Attribution under Complex Radial Distortion Corrections"](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10265255)
-
+## Abstract
 Forensic image source attribution aims at deciding whether a query
 image was taken by a specific camera. While various algorithms
 leveraging forensic traces have been proposed, the most effective
@@ -20,6 +19,8 @@ false positive cases are attributed to mislabeled devices. Finally, we
 show that a number of false negatives from the dataset are traceable
 to radially corrected images, and to images processed by third-party
 software that had not been previously noticed.
+
+This is the official code implementation of the paper ["An Adaptive Method for Camera Attribution under Complex Radial Distortion Corrections"](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10265255)
 
 ## Requirements
 
