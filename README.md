@@ -2,6 +2,25 @@
 
 This is the official code implementation of the paper ["An Adaptive Method for Camera Attribution under Complex Radial Distortion Corrections"](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10265255)
 
+Forensic image source attribution aims at deciding whether a query
+image was taken by a specific camera. While various algorithms
+leveraging forensic traces have been proposed, the most effective
+techniques rely on Photo Response Non-Uniformity (PRNU), a pattern introduced by camera sensors during the image acquisition
+process. In recent years, advances in image acquisition and processing technologies in modern devices have been found to impact
+the performance of PRNU, seemingly challenging its uniqueness.
+In this paper, we build upon recent discoveries of leaks in PRNU
+uniqueness, focusing on the dataset recently published by Iuliani
+et al. which has been instrumental in identifying numerous issues
+related to source attribution. Specifically, we analyze the effects in
+terms of false positive of visible watermarks applied to Xiaomi Mi 9
+images, and reveal artifacts in the magnitude of the Discrete Fourier
+Transform of Samsung A50 images, indicative of the absence of
+non-unique artifacts. Furthermore, we demonstrate how several
+false positive cases are attributed to mislabeled devices. Finally, we
+show that a number of false negatives from the dataset are traceable
+to radially corrected images, and to images processed by third-party
+software that had not been previously noticed.
+
 ## Requirements
 
 - Install MATLAB Image Processing Toolbox
@@ -47,7 +66,7 @@ Changing the parameters ```transf_idx``` and ```flag_direct``` of the functions 
 
 ## Results of the Paper and its Tech Repo
 
-Check [An Adaptive Method for Camera Attribution under Complex Radial Distortion Corrections]() and [Technical Report Additional Material for “An Adaptive Method for Camera Attribution under Complex Radial Distortion Corrections”]()
+Check [An Adaptive Method for Camera Attribution under Complex Radial Distortion Corrections](https://ieeexplore.ieee.org/abstract/document/10265255) and [Technical Report Additional Material for “An Adaptive Method for Camera Attribution under Complex Radial Distortion Corrections”](https://www.researchgate.net/publication/362251662_Technical_Report_Additional_Material_for_An_Adaptive_Method_for_Camera_Attribution_under_Complex_Radial_Distortion_Corrections)
 
 ![tables](https://github.com/AMontiB/AdaptivePRNUCameraAttribution/blob/main/images/tables.png?raw=true)
 
@@ -58,12 +77,12 @@ Check [An Adaptive Method for Camera Attribution under Complex Radial Distortion
 
 @ARTICLE{10265255, \
   author={Montibeller, Andrea and Pérez-González, Fernando}, \
-  journal={IEEE Transactions on Information Forensics and Security},\
-  title={An Adaptive Method for Camera Attribution Under Complex Radial Distortion Corrections},\
+  journal={IEEE Transactions on Information Forensics and Security}, \
+  title={An Adaptive Method for Camera Attribution Under Complex Radial Distortion Corrections}, \
   year={2024}, \
   volume={19}, \
   number={}, \
   pages={385-400}, \
-  doi={10.1109/TIFS.2023.3318933}
-  }
+  keywords={Distortion;Cameras;Fingerprint recognition;Adaptation models;Smart phones;Lenses;Forensics;Image forensics;source attribution;PRNU;photo response non-uniformity;radial correction;distortion correction;PCE;adaptive processing}, \
+  doi={10.1109/TIFS.2023.3318933}}
 
